@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF54CA6F2ED0A1320098C6D8 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF54CA6E2ED0A1320098C6D8 /* VesperSDK */; };
+		DF54CA722ED0B5D70098C6D8 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF54CA712ED0B5D70098C6D8 /* VesperSDK */; };
+		DF54CA752ED0B62B0098C6D8 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF54CA742ED0B62B0098C6D8 /* VesperSDK */; };
+		DF5F6B1A2ECF5C39002FD2B3 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF5F6B192ECF5C39002FD2B3 /* VesperSDK */; };
+		DF5F6B1D2ECF6CEF002FD2B3 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF5F6B1C2ECF6CEF002FD2B3 /* VesperSDK */; };
+		DFB8BA562C89EC8D00B5639C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA552C89EC8D00B5639C /* AppDelegate.swift */; };
+		DFB8BA5F2C89EC8E00B5639C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB8BA5E2C89EC8E00B5639C /* Assets.xcassets */; };
+		DFB8BA622C89EC8E00B5639C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB8BA602C89EC8E00B5639C /* LaunchScreen.storyboard */; };
+		DFB8BA6A2C89ED4C00B5639C /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA692C89ED4C00B5639C /* SetupViewController.swift */; };
+		DFB8BA6C2C89ED5800B5639C /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA6B2C89ED5700B5639C /* PlaybackViewController.swift */; };
+		DFB8BA6E2C89EED900B5639C /* WatchContextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA6D2C89EED900B5639C /* WatchContextPicker.swift */; };
+		DFB8BA702C89F01900B5639C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA6F2C89F01900B5639C /* BaseView.swift */; };
+		DFB8BA812C89F0DC00B5639C /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA772C89F0DC00B5639C /* UIView+Anchors.swift */; };
+		DFB8BA822C89F0DC00B5639C /* UIView+keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA782C89F0DC00B5639C /* UIView+keyboard.swift */; };
+		DFB8BA842C89F0DC00B5639C /* UIView+ReturnAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA7A2C89F0DC00B5639C /* UIView+ReturnAnchors.swift */; };
+		DFB8BA872C89F0DC00B5639C /* UIView+LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA7D2C89F0DC00B5639C /* UIView+LayoutGuide.swift */; };
+		DFB8BA882C89F0DC00B5639C /* UIControl+closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA7E2C89F0DC00B5639C /* UIControl+closure.swift */; };
+		DFB8BA892C89F0DC00B5639C /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA7F2C89F0DC00B5639C /* UIView+Subviews.swift */; };
+		DFBA12FA2ED0B70A004E71ED /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DFBA12F92ED0B70A004E71ED /* VesperSDK */; };
+		DFBA12FD2ED0F11F004E71ED /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DFBA12FC2ED0F11F004E71ED /* VesperSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF69C1582ECF76C2000ACCB6 /* vesper-sdk-apple-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vesper-sdk-apple-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB8BA552C89EC8D00B5639C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB8BA5E2C89EC8E00B5639C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB8BA612C89EC8E00B5639C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB8BA632C89EC8E00B5639C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB8BA692C89ED4C00B5639C /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		DFB8BA6B2C89ED5700B5639C /* PlaybackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
+		DFB8BA6D2C89EED900B5639C /* WatchContextPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchContextPicker.swift; sourceTree = "<group>"; };
+		DFB8BA6F2C89F01900B5639C /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		DFB8BA772C89F0DC00B5639C /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		DFB8BA782C89F0DC00B5639C /* UIView+keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+keyboard.swift"; sourceTree = "<group>"; };
+		DFB8BA7A2C89F0DC00B5639C /* UIView+ReturnAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ReturnAnchors.swift"; sourceTree = "<group>"; };
+		DFB8BA7D2C89F0DC00B5639C /* UIView+LayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutGuide.swift"; sourceTree = "<group>"; };
+		DFB8BA7E2C89F0DC00B5639C /* UIControl+closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+closure.swift"; sourceTree = "<group>"; };
+		DFB8BA7F2C89F0DC00B5639C /* UIView+Subviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Subviews.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB8BA4F2C89EC8D00B5639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF54CA722ED0B5D70098C6D8 /* VesperSDK in Frameworks */,
+				DF5F6B1D2ECF6CEF002FD2B3 /* VesperSDK in Frameworks */,
+				DFBA12FA2ED0B70A004E71ED /* VesperSDK in Frameworks */,
+				DF5F6B1A2ECF5C39002FD2B3 /* VesperSDK in Frameworks */,
+				DF54CA752ED0B62B0098C6D8 /* VesperSDK in Frameworks */,
+				DF54CA6F2ED0A1320098C6D8 /* VesperSDK in Frameworks */,
+				DFBA12FD2ED0F11F004E71ED /* VesperSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB8BA492C89EC8D00B5639C = {
+			isa = PBXGroup;
+			children = (
+				DFB8BA542C89EC8D00B5639C /* vesper-sdk-apple-example */,
+				DF69C1582ECF76C2000ACCB6 /* vesper-sdk-apple-example.app */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB8BA542C89EC8D00B5639C /* vesper-sdk-apple-example */ = {
+			isa = PBXGroup;
+			children = (
+				DFB8BA8E2C8B58DD00B5639C /* Views */,
+				DFB8BA552C89EC8D00B5639C /* AppDelegate.swift */,
+				DFB8BA692C89ED4C00B5639C /* SetupViewController.swift */,
+				DFB8BA6B2C89ED5700B5639C /* PlaybackViewController.swift */,
+				DFB8BA752C89F0DC00B5639C /* Extensions */,
+				DFB8BA5E2C89EC8E00B5639C /* Assets.xcassets */,
+				DFB8BA602C89EC8E00B5639C /* LaunchScreen.storyboard */,
+				DFB8BA632C89EC8E00B5639C /* Info.plist */,
+			);
+			path = "vesper-sdk-apple-example";
+			sourceTree = "<group>";
+		};
+		DFB8BA752C89F0DC00B5639C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFB8BA772C89F0DC00B5639C /* UIView+Anchors.swift */,
+				DFB8BA782C89F0DC00B5639C /* UIView+keyboard.swift */,
+				DFB8BA7A2C89F0DC00B5639C /* UIView+ReturnAnchors.swift */,
+				DFB8BA7D2C89F0DC00B5639C /* UIView+LayoutGuide.swift */,
+				DFB8BA7E2C89F0DC00B5639C /* UIControl+closure.swift */,
+				DFB8BA7F2C89F0DC00B5639C /* UIView+Subviews.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFB8BA8E2C8B58DD00B5639C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFB8BA6F2C89F01900B5639C /* BaseView.swift */,
+				DFB8BA6D2C89EED900B5639C /* WatchContextPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB8BA512C89EC8D00B5639C /* vesper-sdk-apple-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB8BA662C89EC8E00B5639C /* Build configuration list for PBXNativeTarget "vesper-sdk-apple-example" */;
+			buildPhases = (
+				DFB8BA4E2C89EC8D00B5639C /* Sources */,
+				DFB8BA4F2C89EC8D00B5639C /* Frameworks */,
+				DFB8BA502C89EC8D00B5639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vesper-sdk-apple-example";
+			productName = "vesper-sdk-apple-example";
+			productReference = DF69C1582ECF76C2000ACCB6 /* vesper-sdk-apple-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB8BA4A2C89EC8D00B5639C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DFB8BA512C89EC8D00B5639C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DFB8BA4D2C89EC8D00B5639C /* Build configuration list for PBXProject "vesper-sdk-apple-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB8BA492C89EC8D00B5639C;
+			packageReferences = (
+				DFBA12FB2ED0F11F004E71ED /* XCLocalSwiftPackageReference "../../vesper-sdk-apple-spm" */,
+			);
+			productRefGroup = DFB8BA492C89EC8D00B5639C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB8BA512C89EC8D00B5639C /* vesper-sdk-apple-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB8BA502C89EC8D00B5639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB8BA622C89EC8E00B5639C /* LaunchScreen.storyboard in Resources */,
+				DFB8BA5F2C89EC8E00B5639C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB8BA4E2C89EC8D00B5639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB8BA882C89F0DC00B5639C /* UIControl+closure.swift in Sources */,
+				DFB8BA872C89F0DC00B5639C /* UIView+LayoutGuide.swift in Sources */,
+				DFB8BA842C89F0DC00B5639C /* UIView+ReturnAnchors.swift in Sources */,
+				DFB8BA6A2C89ED4C00B5639C /* SetupViewController.swift in Sources */,
+				DFB8BA6E2C89EED900B5639C /* WatchContextPicker.swift in Sources */,
+				DFB8BA702C89F01900B5639C /* BaseView.swift in Sources */,
+				DFB8BA562C89EC8D00B5639C /* AppDelegate.swift in Sources */,
+				DFB8BA822C89F0DC00B5639C /* UIView+keyboard.swift in Sources */,
+				DFB8BA6C2C89ED5800B5639C /* PlaybackViewController.swift in Sources */,
+				DFB8BA812C89F0DC00B5639C /* UIView+Anchors.swift in Sources */,
+				DFB8BA892C89F0DC00B5639C /* UIView+Subviews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFB8BA602C89EC8E00B5639C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB8BA612C89EC8E00B5639C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB8BA642C89EC8E00B5639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB8BA652C89EC8E00B5639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB8BA672C89EC8E00B5639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY4CZ36YFN;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vesper-sdk-apple-example/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "vesper-sdk-apple-example uses the local network to discover Cast-enabled devices on your WiFi network.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dce.AVDoris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB8BA682C89EC8E00B5639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY4CZ36YFN;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vesper-sdk-apple-example/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "vesper-sdk-apple-example uses the local network to discover Cast-enabled devices on your WiFi network.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dce.AVDoris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB8BA4D2C89EC8D00B5639C /* Build configuration list for PBXProject "vesper-sdk-apple-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB8BA642C89EC8E00B5639C /* Debug */,
+				DFB8BA652C89EC8E00B5639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB8BA662C89EC8E00B5639C /* Build configuration list for PBXNativeTarget "vesper-sdk-apple-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB8BA672C89EC8E00B5639C /* Debug */,
+				DFB8BA682C89EC8E00B5639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DFBA12FB2ED0F11F004E71ED /* XCLocalSwiftPackageReference "../../vesper-sdk-apple-spm" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../vesper-sdk-apple-spm";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF54CA6E2ED0A1320098C6D8 /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DF54CA712ED0B5D70098C6D8 /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DF54CA742ED0B62B0098C6D8 /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DF5F6B192ECF5C39002FD2B3 /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DF5F6B1C2ECF6CEF002FD2B3 /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DFBA12F92ED0B70A004E71ED /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DFBA12FC2ED0F11F004E71ED /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DFB8BA4A2C89EC8D00B5639C /* Project object */;
+}

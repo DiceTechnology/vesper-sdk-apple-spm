@@ -1,0 +1,42 @@
+{
+  "originHash" : "d2d184bda36183e3b4b006ad9bc95a6f8f76b6518c12d10254f9837a1781a938",
+  "pins" : [
+    {
+      "identity" : "conviva-ios-avfoundation-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Conviva/conviva-ios-avfoundation-spm",
+      "state" : {
+        "revision" : "a170c60b1d32cdf885cb2d6d117bad07d1a3ca40",
+        "version" : "4.0.58"
+      }
+    },
+    {
+      "identity" : "mux-stats-sdk-avplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/muxinc/mux-stats-sdk-avplayer",
+      "state" : {
+        "revision" : "4bda9c2c7f27bf513377313f09f6bcdaa617415d",
+        "version" : "3.6.2"
+      }
+    },
+    {
+      "identity" : "stats-sdk-objc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/muxinc/stats-sdk-objc.git",
+      "state" : {
+        "revision" : "d72b1d40ae9f568d2c6be890c48a17b1ff11c9af",
+        "version" : "4.7.1"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-interactive-media-ads-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios",
+      "state" : {
+        "revision" : "871bc80349774ba228c41096129995d1e9848b04",
+        "version" : "3.28.10"
+      }
+    }
+  ],
+  "version" : 3
+}
