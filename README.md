@@ -1,2 +1,2 @@
-# vesper-sdk-apple-spm
-Manages public swift packages for VesperSDK and provides example app for iOS and tvOS
+# vesper-sdk-apple-example
+Example apps for Vesper SDK for iOS and tvOS
