@@ -1,5 +1,5 @@
 {
-  "originHash" : "e8b299ad4ffbda6a38c5d03e148eccc4afb9b4f0f562dcdb618d7a83b13bb8ef",
+  "originHash" : "e30573df3474080c79c205513b4b1ea173afdb0adc3d72f5c73bf88329b9217e",
   "pins" : [
     {
       "identity" : "conviva-ios-avfoundation-spm",
@@ -35,15 +35,6 @@
       "state" : {
         "revision" : "871bc80349774ba228c41096129995d1e9848b04",
         "version" : "3.28.10"
-      }
-    },
-    {
-      "identity" : "vesper-sdk-apple-spm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DiceTechnology/vesper-sdk-apple-spm",
-      "state" : {
-        "revision" : "a98b2f0a45ecc05d4bae4dadd5527adf88834117",
-        "version" : "2.0.1"
       }
     }
   ],

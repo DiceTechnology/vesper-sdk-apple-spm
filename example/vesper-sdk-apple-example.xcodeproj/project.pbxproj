@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,9 @@
 		DF54CA752ED0B62B0098C6D8 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF54CA742ED0B62B0098C6D8 /* VesperSDK */; };
 		DF5F6B1A2ECF5C39002FD2B3 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF5F6B192ECF5C39002FD2B3 /* VesperSDK */; };
 		DF5F6B1D2ECF6CEF002FD2B3 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF5F6B1C2ECF6CEF002FD2B3 /* VesperSDK */; };
+		DF5FA6602ED2FC0D00E25772 /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF5FA65F2ED2FC0D00E25772 /* VesperSDK */; };
+		DF6BEA862ED5C9B900A974EB /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF6BEA852ED5C9B900A974EB /* VesperSDK */; };
+		DF6BEA892ED5CA0E00A974EB /* VesperSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF6BEA882ED5CA0E00A974EB /* VesperSDK */; };
 		DFB8BA562C89EC8D00B5639C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8BA552C89EC8D00B5639C /* AppDelegate.swift */; };
 		DFB8BA5F2C89EC8E00B5639C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB8BA5E2C89EC8E00B5639C /* Assets.xcassets */; };
 		DFB8BA622C89EC8E00B5639C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB8BA602C89EC8E00B5639C /* LaunchScreen.storyboard */; };
@@ -52,12 +55,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5FA6602ED2FC0D00E25772 /* VesperSDK in Frameworks */,
 				DF54CA722ED0B5D70098C6D8 /* VesperSDK in Frameworks */,
+				DF6BEA862ED5C9B900A974EB /* VesperSDK in Frameworks */,
 				DF5F6B1D2ECF6CEF002FD2B3 /* VesperSDK in Frameworks */,
 				DFBA12FA2ED0B70A004E71ED /* VesperSDK in Frameworks */,
 				DF5F6B1A2ECF5C39002FD2B3 /* VesperSDK in Frameworks */,
 				DF54CA752ED0B62B0098C6D8 /* VesperSDK in Frameworks */,
 				DF54CA6F2ED0A1320098C6D8 /* VesperSDK in Frameworks */,
+				DF6BEA892ED5CA0E00A974EB /* VesperSDK in Frameworks */,
 				DFBA12FD2ED0F11F004E71ED /* VesperSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +161,7 @@
 			);
 			mainGroup = DFB8BA492C89EC8D00B5639C;
 			packageReferences = (
-				DFBA12FB2ED0F11F004E71ED /* XCLocalSwiftPackageReference "../../vesper-sdk-apple-spm" */,
+				DF6BEA872ED5CA0E00A974EB /* XCRemoteSwiftPackageReference "vesper-sdk-apple-spm" */,
 			);
 			productRefGroup = DFB8BA492C89EC8D00B5639C;
 			projectDirPath = "";
@@ -411,12 +417,24 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		DFBA12FB2ED0F11F004E71ED /* XCLocalSwiftPackageReference "../../vesper-sdk-apple-spm" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../vesper-sdk-apple-spm";
+/* Begin XCRemoteSwiftPackageReference section */
+		DF5FA65E2ED2FC0D00E25772 /* XCRemoteSwiftPackageReference "vesper-sdk-apple-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DiceTechnology/vesper-sdk-apple-spm";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.2;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+		DF6BEA872ED5CA0E00A974EB /* XCRemoteSwiftPackageReference "vesper-sdk-apple-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DiceTechnology/vesper-sdk-apple-spm";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		DF54CA6E2ED0A1320098C6D8 /* VesperSDK */ = {
@@ -437,6 +455,20 @@
 		};
 		DF5F6B1C2ECF6CEF002FD2B3 /* VesperSDK */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DF5FA65F2ED2FC0D00E25772 /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF5FA65E2ED2FC0D00E25772 /* XCRemoteSwiftPackageReference "vesper-sdk-apple-spm" */;
+			productName = VesperSDK;
+		};
+		DF6BEA852ED5C9B900A974EB /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VesperSDK;
+		};
+		DF6BEA882ED5CA0E00A974EB /* VesperSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF6BEA872ED5CA0E00A974EB /* XCRemoteSwiftPackageReference "vesper-sdk-apple-spm" */;
 			productName = VesperSDK;
 		};
 		DFBA12F92ED0B70A004E71ED /* VesperSDK */ = {
