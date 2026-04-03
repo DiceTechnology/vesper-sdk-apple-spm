@@ -1,0 +1,17 @@
+name: Self Approve
+
+on:
+  workflow_dispatch:
+
+jobs:  
+  create-bump-pr-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Self approve PR
+        id: pr_approve
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          current_branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
+          gh pr review --approve --repo "$GITHUB_REPOSITORY" "$current_branch"
