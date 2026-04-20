@@ -1,5 +1,5 @@
 {
-  "originHash" : "e30573df3474080c79c205513b4b1ea173afdb0adc3d72f5c73bf88329b9217e",
+  "originHash" : "643e3493ea5253e15b8ea87128a5a0ab6d647396cc932ef99131718fd9284f10",
   "pins" : [
     {
       "identity" : "conviva-ios-avfoundation-spm",
@@ -35,6 +35,15 @@
       "state" : {
         "revision" : "871bc80349774ba228c41096129995d1e9848b04",
         "version" : "3.28.10"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-interactive-media-ads-tvos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-tvos",
+      "state" : {
+        "revision" : "fe5a302eb17388077258b02e2a18e88f63100625",
+        "version" : "4.16.0"
       }
     }
   ],
