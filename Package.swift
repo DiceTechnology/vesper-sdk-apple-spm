@@ -101,14 +101,14 @@ let wrapperTarget: Target = .target(
     name: "VesperSDKWrapper",
     dependencies: privateTargetDependencies_ios + publicTargetDependencies_shared + publicTargetDependencies_ios,
     path: "Sources/VesperSDKWrapper",
-    resources: [.embedInCode("Resources")]
+    resources: [.process("Resources")]
 )
 
 let wrapperTargetTvOS: Target = .target(
     name: "VesperSDKWrapperTvOS",
     dependencies: privateTargetDependencies_tvos + publicTargetDependencies_shared + publicTargetDependencies_tvos,
     path: "Sources/VesperSDKWrapperTvOS",
-    resources: [.embedInCode("Resources")]
+    resources: [.process("Resources")]
 )
 
 let packagePlatforms: [SupportedPlatform] = [.iOS(.v15), .tvOS(.v16)]
