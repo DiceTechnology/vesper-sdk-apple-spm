@@ -1,5 +1,5 @@
 {
-  "originHash" : "e8b299ad4ffbda6a38c5d03e148eccc4afb9b4f0f562dcdb618d7a83b13bb8ef",
+  "originHash" : "d2d184bda36183e3b4b006ad9bc95a6f8f76b6518c12d10254f9837a1781a938",
   "pins" : [
     {
       "identity" : "conviva-ios-avfoundation-spm",
@@ -33,17 +33,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios",
       "state" : {
-        "revision" : "871bc80349774ba228c41096129995d1e9848b04",
-        "version" : "3.28.10"
+        "revision" : "3ab3dee61922cf4e024b9086f324f0737bc73339",
+        "version" : "3.31.0"
       }
     },
     {
-      "identity" : "vesper-sdk-apple-spm",
+      "identity" : "swift-package-manager-google-interactive-media-ads-tvos",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DiceTechnology/vesper-sdk-apple-spm",
+      "location" : "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-tvos",
       "state" : {
-        "revision" : "a98b2f0a45ecc05d4bae4dadd5527adf88834117",
-        "version" : "2.0.1"
+        "revision" : "fe5a302eb17388077258b02e2a18e88f63100625",
+        "version" : "4.16.0"
       }
     }
   ],
