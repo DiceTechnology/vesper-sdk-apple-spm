@@ -1,0 +1,66 @@
+name: Tag and Release
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  git-tag-job:
+    if: |
+      github.event.pull_request.merged == true &&
+      startsWith(github.event.pull_request.head.ref, 'release/')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read Version
+        id: pr_version
+        run: |
+          previous_version=$(git describe --tags --abbrev=0)
+          echo "Previous version: $previous_version"
+          echo "previous_version=$previous_version" >> $GITHUB_ENV
+
+          new_version="${{ github.event.pull_request.title }}"
+          echo "Version: $new_version"
+          echo "new_version=$new_version" >> $GITHUB_ENV
+
+      - name: Git tag
+        id: git_tag
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git tag -a "${{ env.new_version }}" -m "${{ env.new_version }}"
+          git push --tags
+
+          echo "${{ env.new_version }} tag created"
+
+      - name: Changelog
+        id: get_changelog
+        run: |
+          changelog=$(git log --oneline "${{ env.previous_version }}".."${{ env.new_version }}")
+          echo "changelog<<EOF" >> $GITHUB_ENV
+          echo "$changelog" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          tag: "${{ env.new_version }}"
+          body: |
+            ${{ github.event.pull_request.body }}
+            ${{ env.changelog }}
+
+            [Full Diff](${{ github.event.repository.html_url }}/compare/${{ env.previous_version }}...${{ env.new_version }})
