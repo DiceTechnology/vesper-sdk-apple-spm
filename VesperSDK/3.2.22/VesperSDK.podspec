@@ -36,5 +36,5 @@ Pod::Spec.new do |spec|
   spec.ios.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.22'
   spec.tvos.dependency 'GoogleAds-IMA-tvOS-SDK', '~> 4.12'
   spec.dependency 'ConvivaAVFoundation', '>= 4.0.51', '< 4.1'
-  spec.dependency 'Mux-Stats-AVPlayer', '~> 3.6.0'
+  spec.dependency 'Mux-Stats-AVPlayer', '~> 4.0'
 end
