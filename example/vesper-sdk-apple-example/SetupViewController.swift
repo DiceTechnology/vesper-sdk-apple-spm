@@ -8,7 +8,6 @@
 
 import UIKit
 import VesperSDK
-import AVDoris
 import GoogleInteractiveMediaAds
 
 class SetupViewController: UIViewController {
@@ -87,6 +86,7 @@ class SetupViewController: UIViewController {
         let action = UIAction { [weak self] _ in
             guard let self = self else { return }
             let vc = PlaybackViewController(apiConfig: APIConfig(realm: realmTextFiled.text ?? "",
+                                                                 baseUrl: "https://mobile.api.onvesper.com/",
                                                                  environment: APIConfig.Environment.allCases[pickerView.selectedRow(inComponent: 0)],
                                                                  apiKey: "9ae946e6-3374-485f-9737-662cae419fef"),
                                             username: usernameTextFiled.text ?? "",

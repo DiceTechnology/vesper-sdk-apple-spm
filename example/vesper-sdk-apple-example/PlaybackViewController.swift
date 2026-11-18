@@ -7,7 +7,6 @@
 //
 
 import VesperSDK
-import AVDoris
 
 class PlaybackViewController: UIViewController {
     var orientation = UIInterfaceOrientationMask.portrait
@@ -158,8 +157,8 @@ extension PlaybackViewController: DorisViewOutputProtocol, DorisPlayerOutputProt
         default: break
         }
     }
-    func onViewUniversalEvent(_ event: AVDoris.DorisViewUniversalEvent) {}
-    func viewDidChangeState(old: AVDoris.DorisViewState, new: AVDoris.DorisViewState) {}
+    func onViewUniversalEvent(_ event: DorisViewUniversalEvent) {}
+    func viewDidChangeState(old: DorisViewState, new: DorisViewState) {}
     func onViewTapEvent(_ event: DorisViewTapEvent) {
         switch event {
         case .backButtonTap:
